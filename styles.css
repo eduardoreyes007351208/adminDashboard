@@ -1,3 +1,4 @@
+/* Default CSS */
 html {
     background-color: var(--neutral-color);
 }
@@ -15,3 +16,7 @@ html {
     font-family: futura;
     font-size: 12px;
 }
+
+
+
+/*  */
