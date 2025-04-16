@@ -9,6 +9,12 @@ ul {
 li {
     list-style: none;
 }
+button {
+    background-color: transparent;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
 
 @font-face {
     font-family: futura;
@@ -102,6 +108,29 @@ li {
     gap: 16px;
     align-items: center;
     width: 70%;
+}
+.searchIcon {
+    padding: 4px;
+}
+.searchIcon:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 20px;
+}
+#searchBarForm {
+    width: 80%;
+}
+#searchBar{
+    background-color: var(--neutral-color);
+    border: none;
+    border-radius: 12px;
+    width: 100%;
+    padding: 4px 12px;
+    font-size: 1.33rem;
+}
+#searchBar:focus {
+    outline: 2px solid var(--primary-color);
 }
 .icons.icons.alert {
     font-size: 2rem;
