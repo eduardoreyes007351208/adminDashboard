@@ -101,7 +101,7 @@ button {
 #search {
     display: flex;
     justify-content: space-between;
-    padding: 32px 16px;
+    padding: 32px 12px;
 }
 #searchSection {
     display: flex;
@@ -131,6 +131,15 @@ button {
 }
 #searchBar:focus {
     outline: 2px solid var(--primary-color);
+}
+
+#accountInfo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-left: 8px;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 .icons.icons.alert {
     font-size: 2rem;
