@@ -1,0 +1,17 @@
+html {
+    background-color: var(--neutral-color);
+}
+
+@font-face {
+    font-family: futura;
+    src: url('./fonts/futuramediumbt.ttf');
+}
+
+:root {
+    --primary-color: #C3B1E1;
+    --secondary-color: #CFE1B1;
+    --neutral-color: #C6C6C7;
+
+    font-family: futura;
+    font-size: 12px;
+}
