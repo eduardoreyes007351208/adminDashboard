@@ -119,7 +119,7 @@ button {
     border-radius: 20px;
 }
 #searchBarForm {
-    width: 80%;
+    width: min(80%, 500px);
 }
 #searchBar{
     background-color: var(--neutral-color);
