@@ -202,4 +202,9 @@ p {
 /* Main Area */
 #mainArea {
     grid-column: 2/3;
+    display: grid;
+    grid-template-columns: minmax(250px, 1fr) 250px;
+}
+#projectsSection {
+    grid-row: 1/3;
 }
