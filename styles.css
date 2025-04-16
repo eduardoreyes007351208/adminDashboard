@@ -20,3 +20,21 @@ html {
 
 
 /*  */
+#mainDiv {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) 7fr;
+    grid-template-rows: 1fr 10fr;
+}
+
+#sidebar {
+    grid-row: 1/3;
+    background-color: var(--primary-color);
+}
+#navbar {
+    grid-column: 2/3;
+}
+#mainArea {
+    grid-column: 2/3;
+}
