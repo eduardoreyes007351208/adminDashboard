@@ -11,7 +11,7 @@ button {
     margin: 0px;
     padding: 0px;
 }
-p, ul, h2, h3 {
+p, ul, h1, h2, h3, h4, h5, h6 {
     margin: 0px;
     padding: 0px;
 }
@@ -255,6 +255,10 @@ p, ul, h2, h3 {
 .section {
     padding: 0px 16px 0px 16px;
 }
+#announcementsSection,
+#trendingSection  {
+    padding-right: 32px;
+}
 .sideContainer {
     height: 300px;
     background-color: #ffffff;
@@ -270,7 +274,28 @@ p, ul, h2, h3 {
     padding-bottom: 16px;
     border-bottom: 1px solid var(--neutral-color);
 }
+.announcements p {
+    color: #666666;
+}
+.announcementTitle {
+    padding-bottom: 4px;
+}
 .mainHeadings {
     padding: 32px 0px 16px 0px;
     text-align: center;
+}
+
+.trendingUser {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.tUserText {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.tUserText span {
+    color: #666666;
 }
