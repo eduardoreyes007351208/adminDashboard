@@ -225,11 +225,26 @@ p, ul, h2 {
 }
 .projectTextCont {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: start;
+    padding: 0px 12px;
+    justify-content: center;
+    gap: 4px;
 }
 .projectPara {
     text-wrap: balance;
+    color: #666666;
+}
+.cardButtons {
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+    padding-right: 16px;
+}
+.star-share-eye:hover {
+    cursor: pointer;
+    color: var(--primary-color);
 }
